@@ -8,12 +8,13 @@ changes periodically. It can also use local text files for the same purpose.
 vim, vim-gtk, variety
 
 ## How to use
+- Download the goodread_format.vim script file, e.g. by using `git clone https://github.com/9cco/Govirity`
 - Copy paste quotes from goodreads.com and put them in a file in the Variety
     local text files folder, which is localed in ~/.config/variety/pluginconfig/quotes 
     Paste the quotes into a file using your favourite text editor and name the file with
     a .txt extension, i.e. a filename such as myquotes.txt
 - Open this file in vim and type
->:source [path to .vim script file]
+`:source [path to goodread_format.vim script file]`
 
 Your file should now be in a format that is supported by Variety which is to have the quote
 within double quotation marks. If an author is added, the quotation marks should be followed by
