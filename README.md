@@ -4,10 +4,10 @@ to a format that is accepted by the variety wallpaper changer on linux. Variety 
 sources such as goodreads.com and others to be able to overlay a quote on a wallpaper that
 changes periodically. It can also use local text files for the same purpose.
 
-##Required packages:
+## Required packages:
 vim, vim-gtk, variety
 
-##How to use
+## How to use
 - Copy paste quotes from goodreads.com and put them in a file in the Variety
     local text files folder, which is localed in ~/.config/variety/pluginconfig/quotes 
     Paste the quotes into a file using your favourite text editor and name the file with
